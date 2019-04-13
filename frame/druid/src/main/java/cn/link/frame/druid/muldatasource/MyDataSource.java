@@ -11,10 +11,9 @@ public class MyDataSource extends DruidDataSource {
 
     @Override
     public void setPassword(String ciphertext){
-
+        System.out.println("调用pass word ：" + ciphertext);
         try {
             String password = ConfigTools.decrypt(publicKey,ciphertext);
-            System.out.println("my  ===== " + password);
             super.setPassword(password);
         } catch (Exception e) {
             e.printStackTrace();
