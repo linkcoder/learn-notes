@@ -25,7 +25,7 @@ public class DBPasswordDecoder extends DruidPasswordCallback {
         super.setProperties(properties);
         try {
             String password = ConfigTools.decrypt(publicKey, ciphertext);
-            logger.info("decode success and password is {}", password);
+            logger.debug("decode success and password is {}", password);
             setPassword(password.toCharArray());
         } catch (Exception e) {
             logger.warn("try decode fail");
