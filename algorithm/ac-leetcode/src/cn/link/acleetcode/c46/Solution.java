@@ -1,7 +1,6 @@
 package cn.link.acleetcode.c46;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**
