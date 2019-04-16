@@ -1,4 +1,4 @@
-package cn.link.frame.druid;
+package cn.link.frame.druid.muldatasource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
