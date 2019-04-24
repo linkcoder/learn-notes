@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/algorithm/ac-leetcode/ac-leetcode.iml" filepath="$PROJECT_DIR$/algorithm/ac-leetcode/ac-leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns/design-code/design-code.iml" filepath="$PROJECT_DIR$/design-patterns/design-code/design-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frame/druid/druid.iml" filepath="$PROJECT_DIR$/frame/druid/druid.iml" />
+    </modules>
+  </component>
+</project>
